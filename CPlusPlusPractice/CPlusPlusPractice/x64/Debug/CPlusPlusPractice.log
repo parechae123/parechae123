@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\GitFork\Projects\parechae123\CPlusPlusPractice\CPlusPlusPractice\main.cpp(19,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  CPlusPlusPractice.vcxproj -> E:\GitFork\Projects\parechae123\CPlusPlusPractice\x64\Debug\CPlusPlusPractice.exe
