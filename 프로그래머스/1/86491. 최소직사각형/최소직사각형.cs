@@ -1,36 +1,22 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Solution {
     public int solution(int[,] sizes) {
-        int vertMax = 0;
-        int horizMax = 0;
-        for(int i = 0;i< sizes.GetLength(0);i++)
+        List<int[]> sizeList = new List<int[]>();
+        for(int i = 0; i<sizes.GetLength(0);i++)
         {
-            if(sizes[i,0] > sizes[i,1])
+            sizeList.Add(new int[2]);
+            sizeList[i][0] = sizes[i,0];
+            sizeList[i][1] = sizes[i,1];
+            if(sizeList[i][1] > sizeList[i][0])
             {
-                if(sizes[i,0] > vertMax)
-                {
-                    vertMax = sizes[i,0];
-                }
-                if(sizes[i,1] > horizMax)
-                {
-                    horizMax = sizes[i,1];
-                }
-            }
-            else
-            {
-                if(sizes[i,1] > vertMax)
-                {
-                    vertMax = sizes[i,1];
-                }
-                if(sizes[i,0] > horizMax)
-                {
-                    horizMax = sizes[i,0];
-                }
+                sizeList[i][1] = sizes[i,0];
+                sizeList[i][0] = sizes[i,1];                
             }
         }
-        Console.WriteLine(vertMax);
-        Console.WriteLine(horizMax);
-        return vertMax *horizMax;
+        
+        return sizeList.Max((x)=>x[0])*sizeList.Max((x)=>x[1]);
     }
 }
