@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 -->
 
 #개인 연구 및 실험자료
+Exel =>스킬객체 =>스킬트리 메이커 => 인게임 객체 및 인게임 스킬트리 작성 툴
+
 [![유튜브l](https://img.youtube.com/vi/C3YZJ5T57yw/2.jpg)](https://youtu.be/C3YZJ5T57yw)
 
 # 영상 포토폴리오
