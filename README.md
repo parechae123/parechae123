@@ -16,9 +16,17 @@ Here are some ideas to get you started:
 -->
 
 #개인 연구 및 실험자료
-Exel =>스킬객체 =>스킬트리 메이커 => 인게임 객체 및 인게임 스킬트리 작성 툴
+
+Exel =>스킬객체 =>스킬트리 메이커 => 인게임 객체 및 인게임 스킬트리 작성 툴 사용예제
 
 [![유튜브l](https://img.youtube.com/vi/C3YZJ5T57yw/2.jpg)](https://youtu.be/C3YZJ5T57yw)
+
+AStar로 이동노드 미리보기
+
+[![유튜브l](https://img.youtube.com/vi/uk6Q5YnxVp8/2.jpg)](https://www.youtube.com/watch?v=uk6Q5YnxVp8)
+
+
+
 
 # 영상 포토폴리오
 [![영상 포토폴리오](https://cdn.iconscout.com/icon/free/png-512/free-video-file-1404980-1185686.png?f=webp&w=256)](http://naver.me/5teme3zQ)
