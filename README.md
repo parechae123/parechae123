@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 #개인 연구 및 실험자료
-[![유튜브l](https://youtu.be/C3YZJ5T57yw/0.jpg)](https://youtu.be/C3YZJ5T57yw)
+[![유튜브l](https://img.youtube.com/vi/C3YZJ5T57yw/2.jpg)](https://youtu.be/C3YZJ5T57yw)
 
 # 영상 포토폴리오
 [![영상 포토폴리오](https://cdn.iconscout.com/icon/free/png-512/free-video-file-1404980-1185686.png?f=webp&w=256)](http://naver.me/5teme3zQ)
