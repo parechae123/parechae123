@@ -42,3 +42,6 @@ AStar로 이동노드 미리보기
 [![Stellar Outlaws](https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/Stove_%EB%AA%A9%EB%A1%9D%EA%B8%B0%EB%B3%B8%EC%9D%B4%EB%AF%B8%EC%A7%80.png)](https://github.com/junhee4613/AllStar)
 # Stellar Outlaws (Store page)
 [![Stellar Outlaws](https://d2x8kymwjom7h7.cloudfront.net/live/application_no/119001/images/Stove_%EB%AA%A9%EB%A1%9D%EA%B8%B0%EB%B3%B8%EC%9D%B4%EB%AF%B8%EC%A7%80.png)](https://store.onstove.com/ko/games/2732)
+<!-- Line -->
+# ProjecT R Video
+[![Stellar Outlaws](https://openclipart.org/download/289981/1510164645.svg)](https://www.youtube.com/watch?v=P_n7xDHzBs4)
