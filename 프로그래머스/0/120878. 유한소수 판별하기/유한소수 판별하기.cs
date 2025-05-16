@@ -4,24 +4,25 @@ using System.Linq;
 
 public class Solution {
     public int solution(int a, int b) {
-        b /= GCD(a,b);
-        return GetPrimDivid(b).Count(x=> x != 2 &&x != 5) >0? 2 : 1;
+        int gcd = GCD(a,b);
+        return PrimDivision((b/gcd)).Where(x=> x!=2&&x!=5).ToArray().Length > 0? 2:1;
     }
-    public int GCD(int a,int b)
+    private int GCD(int a, int b)
     {
-        if(b== 0) return a;
+        if(b == 0) return a;
         int c = a%b;
         return GCD(b,c);
     }
-    public List<int> GetPrimDivid(int a)
+    
+    private List<int> PrimDivision(int num)
     {
         List<int> results = new List<int>();
-        for(int i = 2; 1 < a ;i++)
+        for(int i = 2; 1 < num; i++)
         {
-            if(a%i == 0)
+            if(num%i == 0)
             {
-                a /= i;
                 results.Add(i);
+                num /= i;
                 i = 1;
             }
         }
