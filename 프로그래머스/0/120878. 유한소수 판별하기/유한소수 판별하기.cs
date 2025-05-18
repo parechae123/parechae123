@@ -1,31 +1,30 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Collections.Generic;
 
 public class Solution {
     public int solution(int a, int b) {
-        int gcd = GCD(a,b);
-        return PrimDivision((b/gcd)).Where(x=> x!=2&&x!=5).ToArray().Length > 0? 2:1;
+        return PrimeDivide(b/GCD(a,b)).Count(x=> x!= 2 &&x!= 5) > 0? 2 : 1;
     }
-    private int GCD(int a, int b)
+    
+    public int GCD(int a, int b)
     {
         if(b == 0) return a;
         int c = a%b;
         return GCD(b,c);
     }
-    
-    private List<int> PrimDivision(int num)
+    public List<int> PrimeDivide(int num)
     {
-        List<int> results = new List<int>();
-        for(int i = 2; 1 < num; i++)
+        List<int> result = new List<int>();
+        for(int i = 2; 1 < num;i++)
         {
             if(num%i == 0)
             {
-                results.Add(i);
+                result.Add(i);
                 num /= i;
                 i = 1;
             }
         }
-        return results;
+        return result;
     }
 }
